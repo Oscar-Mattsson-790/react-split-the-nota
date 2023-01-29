@@ -12,7 +12,7 @@ function InputForm() {
     const totalCost = Number(foodBill.cost) + tip;
     const costPerPerson = totalCost / Number(foodBill.numberOfFriends);
 
-    console.log(`Varje person skall betala: ${costPerPerson}kr`);
+    console.log(`Varje person ska betala: ${costPerPerson}kr`);
   }
 
   function handleClick() {
